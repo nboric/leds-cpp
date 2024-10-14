@@ -5,7 +5,6 @@
 #include "LedTime.h"
 #include <chrono>
 #include <ctime>
-#include <cmath>
 
 LedTime::LedTime()
 {
@@ -25,7 +24,7 @@ const std::array<LedDigit, 4>& LedTime::getDigits() const
 	return digits_;
 }
 
-const bool LedTime::getSepDots() const
+bool LedTime::getSepDots() const
 {
 	return sepDots_;
 }

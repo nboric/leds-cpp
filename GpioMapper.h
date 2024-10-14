@@ -2,8 +2,8 @@
 // Created by Neven Boric on 10/6/24.
 //
 
-#ifndef _GPIOMAPPER_H_
-#define _GPIOMAPPER_H_
+#ifndef GPIOMAPPER_H_
+#define GPIOMAPPER_H_
 
 #include <gpiod.hpp>
 #include "LedDigit.h"
@@ -27,4 +27,4 @@ class GpioMapper
 	const ::gpiod::line::values& getLedSegmentValues(LedTime& ledTime, int whichDigit);
 };
 
-#endif //_GPIOMAPPER_H_
+#endif //GPIOMAPPER_H_

@@ -2,8 +2,8 @@
 // Created by Neven Boric on 10/6/24.
 //
 
-#ifndef _LEDDIGIT_H_
-#define _LEDDIGIT_H_
+#ifndef LEDDIGIT_H_
+#define LEDDIGIT_H_
 
 #include <array>
 
@@ -16,9 +16,9 @@ class LedDigit
  public:
 	LedDigit() : LedDigit(0) {}
 	explicit LedDigit(int digit);
-	[[nodiscard]] const int getDigit() const;
+	[[nodiscard]] int getDigit() const;
 	[[nodiscard]] const std::array<int, 9>& getSegments() const;
 
 };
 
-#endif //_LEDDIGIT_H_
+#endif //LEDDIGIT_H_

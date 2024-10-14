@@ -49,7 +49,7 @@ const std::array<int, 9>& LedDigit::getSegments() const
 	return segments_;
 }
 
-const int LedDigit::getDigit() const
+int LedDigit::getDigit() const
 {
 	return digit_;
 }

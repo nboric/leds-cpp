@@ -1,10 +1,8 @@
-#include "LedDigit.h"
 #include "LedTime.h"
 #include "GpioMapper.h"
 
 #include <gpiod.hpp>
 
-#include <iostream>
 #include <thread>         // std::this_thread::sleep_for
 #include <chrono>         // std::chrono::seconds
 
